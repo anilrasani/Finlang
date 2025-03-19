@@ -1,0 +1,6 @@
+yfinance
+openai
+pandas
+matplotlib
+numpy
+

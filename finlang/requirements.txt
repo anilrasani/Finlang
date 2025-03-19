@@ -1,1 +1,13 @@
-pip install transformers torch pandas numpy scikit-learn matplotlib seaborn fastapi uvicorn openai yfinance
+pip install transformers,
+torch,
+pandas,
+numpy,
+scikit-learn,
+matplotlib,
+seaborn,
+fastapi,
+uvicorn,
+openai,
+yfinance
+pip install yfinance
+

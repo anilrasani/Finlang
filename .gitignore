@@ -1,0 +1,11 @@
+# Ignore virtual environments
+venv/
+
+# Ignore OS-specific or editor files
+*.pyc
+__pycache__/
+*.DS_Store
+
+# Ignore large data files
+data/**/*.csv
+

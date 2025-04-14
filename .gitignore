@@ -1,11 +1,19 @@
 # Ignore virtual environments
-venv/
+# venv/
 
 # Ignore OS-specific or editor files
-*.pyc
-__pycache__/
-*.DS_Store
+# *.pyc
+# __pycache__/
+# *.DS_Store
 
 # Ignore large data files
-data/**/*.csv
+# data/**/*.csv
 
+# Ignore venv and other system files
+venv/
+*.log
+*.tmp
+*.bak
+.bash_history
+.viminfo
+.viminfo.tmp

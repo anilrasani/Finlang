@@ -20,5 +20,7 @@ print(raw_data.head(5))
 raw_data.columns=raw_data.columns.str.strip()
 
 # print(raw_data.columns)
-raw_data.to_csv(r'C:\Users\Hi\Finlang\data\cleaned_data.csv')
+raw_data.to_csv(r'C:\Users\Hi\Finlang\data\processed\cleaned_data.csv')
+
+
 # 3.ploting

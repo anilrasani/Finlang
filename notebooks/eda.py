@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-raw_data=pd.read_csv(r'C:\Users\Hi\Finlang\data\cleaned_data.csv')
+raw_data=pd.read_csv(r'C:\Users\Hi\Finlang\data\processed\cleaned_data.csv')
 raw_data.head(5)
 #1.plot Close over time
 
@@ -45,5 +45,3 @@ plt.figure(figsize=(10, 6))
 sns.heatmap(numeric_data.corr(), annot=True, cmap='coolwarm')
 plt.title("Correlation Matrix")
 plt.show()
-
-# outliers(optinal)

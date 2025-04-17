@@ -1,0 +1,4 @@
+News_apikey='e1827b9251d24621a7d433dbb8d8a27c'
+Alpha Vantage_API key= "C3AT8EGH2M1612S5"
+Finnhub_apikey='cpg1ma1r01ql1vn3fk4gcpg1ma1r01ql1vn3fk50'
+

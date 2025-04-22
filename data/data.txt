@@ -13,3 +13,26 @@ Alpha Vantage_API key= "C3AT8EGH2M1612S5"
 Finnhub_apikey='cpg1ma1r01ql1vn3fk4gcpg1ma1r01ql1vn3fk50'
 
         
+Project Goals Recap
+Extract insights from financial reports/news
+
+Answer financial questions using LLM
+
+Predict sentiment from financial news
+
+Summarize market trends or earnings reports
+
+✅ Your Data & Best Use Cases
+
+Data Source	File(s)	Purpose
+Kaggle	Cryptocurrency Prices Dataset	Use for market trend analysis in crypto sector
+World-Stock-Prices-Dataset.csv	Ideal for historical market trends & forecasting
+McDonald's Financial Statements	Use for extracting insights from reports & summarizing financial health
+General Financial Statements	Use for LLM question answering on financial metrics
+Employee Earnings Report	Analyze earnings trends and their impact on sentiment
+Yahoo Finance	a.us, aa.us, btc_usd_stock_data	Great for historical stock trend analysis
+tsla.csv	Use for company-specific trend and earnings analysis
+Asianpaint.csv	Same as above—track market behavior of a specific company
+NewsAPI	(via API key)	Live financial news for sentiment analysis and summary
+Alpha Vantage	(via API key)	Intraday and daily financial data for real-time market insights
+Finnhub	(via API key)	Combines financial statements, earnings, and news—perfect for live analysis, sentiment prediction, and LLM questions

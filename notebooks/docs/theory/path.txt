@@ -1,0 +1,7 @@
+Dataset Path | What It Contains | What to Do (EDA/Insights) | Related Notebook
+data/kaggle/crypto_prices.csv | BTC, ETH prices, market cap, volume, etc. | EDA: Trend over time, compare coins, price volatility | notebooks/eda/01_crypto_eda.ipynb
+data/api/finnhub_news_data.csv | News headlines, datetime, summary, source | EDA: Count by daySentiment analysisLLM Q&A | 02_news_time_trend.ipynbllm/ notebooks
+data/yahoo/*.csv | Stock OHLC data (TSLA, AMD, Asian Paints) | EDA: Price trend, moving average, volume trend | notebooks/eda/03_stock_price_trends.ipynb
+data/kaggle/financial_statements_mcd.csv | Revenue, PE ratio, earnings (for McDonald's) | Financial ratio trends, earnings performance over time | notebooks/eda/04_financial_ratios_analysis.ipynb
+data/kaggle/general_financials.csv | Apple: ROI, profit margin, cash flow, inflation | Compare metrics across years (2021 vs 2022), inflation effect | Use in same notebook: 04_financial_ratios_analysis.ipynb
+data/kaggle/employee_earnings.csv | Salaries, departments, gender, roles | Avg salary by dept, gender distribution, total pay trend | (Optional) Can be a separate HR-focused notebook

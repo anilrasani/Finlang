@@ -1,0 +1,39 @@
+finlang/
+│
+├── data/
+│   ├── kaggle/
+│   │   ├── crypto_prices.csv
+│   │   ├── financial_statements_mcd.csv
+│   │   ├── general_financials.csv
+│   │   └── employee_earnings.csv
+│   ├── yahoo/
+│   │   ├── tsla.csv
+│   │   ├── amd.csv
+│   │   └── asianpaint.csv
+│   └── api/
+│       └── finnhub_news_data.csv
+│
+├── notebooks/
+│   ├── eda/
+│   │   ├── 01_crypto_eda.ipynb
+│   │   ├── 02_news_time_trend.ipynb
+│   │   ├── 03_stock_price_trends.ipynb
+│   │   └── 04_financial_ratios_analysis.ipynb
+│   └── llm/
+│       ├── sentiment_analysis_news.ipynb
+│       ├── financial_news_qa_llm.ipynb
+│       └── summarization_pipeline.ipynb
+│
+├── docs/
+│   └── figures/
+│       ├── crypto_trend.png
+│       ├── news_trend.png
+│       ├── stock_moving_avg.png
+│       └── financial_ratios.png
+│
+├── src/
+│   ├── eda/
+│   ├── llm/
+│   └── utils/
+│
+└── README.md

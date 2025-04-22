@@ -1,4 +1,7 @@
 # Api data
+import pandas as pd 
+import requests
+import json
 
 finnhub_api_key = 'cpg1ma1r01ql1vn3fk4gcpg1ma1r01ql1vn3fk50'
 url=f'https://finnhub.io/api/v1/news?category=general&token={finnhub_api_key}'
@@ -20,3 +23,4 @@ with open(r'C:\Users\Hi\Finlang\data\api\extracted_data.json','r') as file:
 data.to_csv(r'C:\Users\Hi\Finlang\src\data\raw\news_data.csv')
 print('news_data Saved successfully..!')
 
+# =>News-driven insight generation

@@ -1,4 +1,7 @@
 # Api data
+import pandas as pd 
+import requests
+import json
 
 finnhub_api_key = 'cpg1ma1r01ql1vn3fk4gcpg1ma1r01ql1vn3fk50'
 url=f'https://finnhub.io/api/v1/news?category=general&token={finnhub_api_key}'
